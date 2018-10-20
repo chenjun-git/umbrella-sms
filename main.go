@@ -11,10 +11,10 @@ import (
 	"github.com/chenjun-git/umbrella-common/monitor"
 	commonUtils "github.com/chenjun-git/umbrella-common/utils"
 
-	"business/sms/common"
-	"business/sms/handler"
-	"business/sms/pb"
-	"business/sms/server"
+	"github.com/chenjun-git/umbrella-sms/common"
+	"github.com/chenjun-git/umbrella-sms/handler"
+	"github.com/chenjun-git/umbrella-sms/pb"
+	"github.com/chenjun-git/umbrella-sms/server"
 )
 
 var (

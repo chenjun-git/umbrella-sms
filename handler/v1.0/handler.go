@@ -8,10 +8,10 @@ import (
 
 	commonErrors "github.com/chenjun-git/umbrella-common/errors"
 
-	"business/sms/common"
-	"business/sms/pb"
-	"business/sms/server"
-	"business/sms/utils"
+	"github.com/chenjun-git/umbrella-sms/common"
+	"github.com/chenjun-git/umbrella-sms/pb"
+	"github.com/chenjun-git/umbrella-sms/server"
+	"github.com/chenjun-git/umbrella-sms/utils"
 )
 
 func sendSignupVerifyCode(w http.ResponseWriter, r *http.Request) {

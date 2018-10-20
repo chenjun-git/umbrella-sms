@@ -3,7 +3,7 @@ package handler
 import (
 	"github.com/go-chi/chi"
 
-	"business/sms/handler/v1.0"
+	"github.com/chenjun-git/umbrella-sms/handler/v1.0"
 )
 
 func RegisterSmsRouter() *chi.Mux {

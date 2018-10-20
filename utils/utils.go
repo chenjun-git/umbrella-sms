@@ -5,7 +5,7 @@ import (
 
 	"github.com/chenjun-git/umbrella-common/render"
 
-	"business/sms/common"
+	"github.com/chenjun-git/umbrella-sms/common"
 )
 
 var (

@@ -1,8 +1,8 @@
 package server
 
 import (
-	"business/sms/common"
-	"business/sms/yunzhixun"
+	"github.com/chenjun-git/umbrella-sms/common"
+	"github.com/chenjun-git/umbrella-sms/yunzhixun"
 )
 
 type Server struct {

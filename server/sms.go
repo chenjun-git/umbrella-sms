@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"business/sms/common"
-	"business/sms/pb"
-	"business/sms/yunzhixun"
+	"github.com/chenjun-git/umbrella-sms/common"
+	"github.com/chenjun-git/umbrella-sms/pb"
+	"github.com/chenjun-git/umbrella-sms/yunzhixun"
 )
 
 func (s *Server) SendSignupVerifyCode(ctx context.Context, req *pb.SmsSendSingleReq) (*pb.SmsSendSingleResp, error) {
