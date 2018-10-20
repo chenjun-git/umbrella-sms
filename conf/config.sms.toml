@@ -1,0 +1,18 @@
+listen = ":7004"
+
+[monitor]
+namespace = "umbrella"
+subsystem = "sms"
+
+[yunzhixun]
+AppId = "7c73d523e3854114bf2518ebb6f0dfd8"
+Sid = "903ed34fea04d6bc43cb7224a36cc527"
+Token = "fc9d6f2b06c9508e8b325c88e10a5c2f"
+Timeout = "5s"
+signupTemplateId = "388639"
+resetPasswdTemplateId = "xxx"
+changePasswdTemplateId = ""
+
+
+[http]
+listen = ":7005"

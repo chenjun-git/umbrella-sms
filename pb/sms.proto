@@ -1,0 +1,15 @@
+syntax = "proto3";
+package pb;
+
+message SmsSendSingleReq{
+	string uid = 1;
+	string mobile = 2;
+	string verify_code = 3;
+}
+
+message SmsSendSingleResp{
+}
+
+service Sms{
+	rpc SendSignupVerifyCode(SmsSendSingleReq) returns (SmsSendSingleResp) {}
+}
